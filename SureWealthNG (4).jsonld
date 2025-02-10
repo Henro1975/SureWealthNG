@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "SureWealthNG",
+    "motivations": "I discovered Cardano Blockchain through my personal research and it's vision and core purpose resonated with my aspirations, hopes and principles for a better world empowered by blockchain technology. I have always wanted to support and facilitate any platform that embodies economic freedom in every aspect of human endeavors and Cardano foots the bill especially with the launch of its novel online blockchain governance capabilities in the cryptocurrency space and the first of its kind. I truly believe that equity, fairness and transparency is the way to go to bring about great success in human achievements and innovations and Cardano can achieve its mission as the global financial operating sysytem; now being the most decentralized blockchain platform.",
+    "objectives": "Cardano is the best chance that the world has to achieve freedom in every sense of the word. Its's Objective to be the financial operating system of the world is an idea that I passionately believe is very possible; to create a global society that is secure, transparent and fair, and which serves the many as the few. It is a great and exciting voyage and I really want to contribute my own quota in making this vision , a reality.",
+    "paymentAddress": "addr1qxehldumyxfz29rnvq0kwks784m8yfutn5xcygrsrpeyja0ampmgx6lwmkvndjj2qgmedpsr7ckv7hqpxvkm59yf2n2ql7cnna",
+    "qualifications": "- Public Certified Accountant\n- University Degree - Bsc. Economics\n- More than 25 years Experience in Finance, Taxation and Accountancy\n- Cardano Project Catalyst Reviewer since 2021\n- Cardano Project Catalyst Moderator\n- Associate, Cardano Intersect Mbo\n- Longterm investor/ ADA Holder\n- Blockchain Enthusiast\n- Great Admirer of the Cardano Blockchain",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "My X Handle - @SureWealthX",
+        "uri": "https://x.com/SureWealthX"
+      }
+    ]
+  }
+}
