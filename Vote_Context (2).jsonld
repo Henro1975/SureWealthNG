@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "The ratification of CIP1694 marks the dawn of a new era for the Cardano ecosystem by virtue of handing over the reins of the Blockchain's future to its community through its onchain governance process. While these are exciting times, we are all still learning the governance process, making it crucial to approach decisions with prudence over ambition. What’s at stake is not short-term gains but the long-term growth and sustainability of the Cardano Blockchain.  \n\nThe proposed tax cut from 20% to 10% is a significant shift—one that feels hasty and highly subjective. While it has its merits, we must prioritize understanding how these changes will impact the ecosystem in the short to medium term before making irreversible decisions.  \n\nPotential Impact of the Tax Cut -\n \n1. Reduced Revenue Generation \n– While it increases staking rewards, it may limit treasury funds, affecting long-term network sustainability. \n \n2. Increased Uncertainty & Risk\n– At a time when we are still refining decentralized governance, drastic changes may introduce instability.  \n\nA More Balanced Approach -\n\nIf an adjustment is necessary, a reduction to 15% instead of 10% would be a more measured approach. This would allow time to evaluate the impact while ensuring we maintain financial stability for future decisions. We must tread carefully with this proposal and consequently, I will be voting \"NO\" to this proposal."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
