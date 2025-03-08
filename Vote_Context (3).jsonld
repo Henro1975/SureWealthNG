@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "I support the Cardano Vision and Roadmap 2025 as it presents a well-structured and forward-thinking approach to strengthening the blockchain’s competitiveness, resilience, and security. The roadmap effectively addresses both immediate and potential technical challenges, ensuring that Cardano remains robust and adaptable in the short, medium, and long term.  \n\nThis modular and comprehensive strategy reinforces Cardano’s vision of becoming a thriving, resilient, and accessible blockchain that remains relevant in the evolving technological landscape. It positions the network at the forefront of blockchain innovation, integrating cutting-edge features while proactively mitigating foreseeable risks and limitations.  \n\nA key strength of the roadmap is its heavy investment in technical infrastructure, ensuring that Cardano remains a high-performance blockchain capable of meeting the growing demands of DeFi, Self-Sovereign Identity, Zero-Knowledge proofs, and other crucial blockchain applications. This emphasis on technical robustness is essential for maintaining trust, scalability, and long-term viability.  \n\nHowever, while technological advancement is vital, I believe that equal attention should be given to awareness, adoption, and strategic promotion of Cardano’s mission. A well-engineered blockchain alone is not enough; its impact depends on widespread understanding and utilization. The roadmap should incorporate intentional investments in mainstream media, targeted promotions, and grassroots awareness campaigns, particularly in underserved and developing regions. Expanding Cardano’s reach through localized partnerships and educational initiatives will bring the network closer to its vision of becoming the world’s decentralized operating system.  \n\nBy balancing technical excellence with global outreach, Cardano can achieve true adoption and fulfill its long-term mission."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
