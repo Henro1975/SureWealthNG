@@ -50,7 +50,7 @@
   },
   "authors": [],
   "body": {
-    "comment": "This Info Action is a constitutionally compliant, community-aligned, and technically sound consolidation of grassroots proposals that passed a legitimate vote threshold. It ensures accessibility, decentralization, and governance transparency, especially for community builders who may lack the 100k ₳ deposit for individual submission. Its structure sets a precedent for fair funding allocation, supporting Cardano’s Voltaire vision and innovation culture without favoring powerful actors."
+    "comment": " I support this ₳2.16M treasury withdrawal to fund Midgard – Optimistic Rollups, a novel Layer 2 framework uniquely built for Cardano’s UTxO architecture. This project delivers scalable, permissionless rollups without centralized sequencers, leveraging Cardano’s local state model to enable efficient fraud proofs and enhanced throughput. It inherits full L1 security, uses Ada as gas, and channels more on-chain activity and fees to the base layer.\n\nThis funding is part of the approved ₳275M ecosystem budget and follows constitutional processes, with milestone-based disbursement, third-party assurance, and on-chain treasury contract oversight. This is a strategically aligned investment in Cardano-native scalability."
   },
   "hashAlgorithm": "blake2b-256"
 }
