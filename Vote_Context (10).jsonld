@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I voted YES — ₳220,914 for UTxO RPC: Sustaining Cardano Blockchain Integration\nThis proposal funds ongoing development and maintenance of UTxO RPC, an open-source standard that simplifies Cardano blockchain integrations. It improves developer experience by providing SDKs, performance enhancements, and interoperability for key projects like Lace, Mesh, and Amaru.\n\nDeveloped by trusted ecosystem contributor TxPipe, the project aligns with the Cardano Constitution’s principles of openness, reusability, and ecosystem resilience. It is backed by a legal contract, milestone-based funding, and third-party assurance, all administered by Intersect under the approved ₳275M budget.\n\nThis vote supports essential infrastructure that helps dApps and wallets integrate faster and more reliably with Cardano."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
