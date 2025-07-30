@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "This proposal funds Intersect, a neutral, nonprofit member-based organization, to provide essential governance, infrastructure, and coordination services to the Cardano ecosystem from June 2025 to June 2026. Intersect plays a critical role in stewarding Cardano’s core codebases, executing the Administrator role under the Constitution, and facilitating participation, budgeting, and roadmap development across the network.\n\nThe requested ₳15.75M aligns with the already approved ₳275M ecosystem budget and will enable:\n\nMaintenance and coordination of Cardano node upgrades\n\nSupport and stipends for working groups and committees\n\nFacilitation of the Constitutional Committee election\n\nExecution of a transparent budget and RFP process for 2026\n\nOn-chain budget disbursement using smart contracts with strong multi-party oversight\n\nVoting YES supports the continuity of decentralized governance, ensures safe network upgrades, and enables a scalable future for Cardano's governance infrastructure."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
