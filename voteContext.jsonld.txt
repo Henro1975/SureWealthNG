@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "This proposal requests ₳5,000,000 to fund the Snek Foundation’s initiative to secure multiple Tier 1 and Tier 2 centralized exchange listings, retail broker integrations, and liquidity provisioning for SNEK — Cardano’s largest and most traded community token. Having already self-funded over $4M to achieve historic listings on Kraken and Crypto.com, SNEK has demonstrated proven capacity to open global market access for Cardano Native Tokens (CNTs).\n\nThe project addresses a key ecosystem bottleneck: limited CNT visibility and liquidity on major platforms. By leveraging SNEK’s brand strength and exchange readiness, the initiative aims to boost ADA pairings, attract mainstream users, and establish reusable legal, technical, and compliance infrastructure for future Cardano token listings.\n\nWith governance oversight from an advisory board including industry veterans (e.g., former Kraken CEO, Emurgo CEO), the proposal ensures transparency and ecosystem-wide benefit. Funding this initiative is not only support for SNEK but a strategic investment in Cardano’s global competitiveness, liquidity depth, and user acquisition funnel."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
